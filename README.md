@@ -44,8 +44,8 @@ You can find all screenshots in the zip file below:
 
 1. **Created an S3 bucket to store cluster state:**
    ```bash
-   aws s3api create-bucket --bucket july-03-maruf --region us-east-1
-   export KOPS_STATE_STORE=s3://july-03-maruf
+   aws s3api create-bucket --bucket july-03-sultan --region us-east-1
+   export KOPS_STATE_STORE=s3://july-03-msultan
    ```
 
 2. **Used Kops to create the cluster:**
